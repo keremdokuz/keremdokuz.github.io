@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/utopai/static/css/main.1519c05e.css",
+    "main.js": "/utopai/static/js/main.4d48476e.js",
+    "static/media/clouds.png": "/utopai/static/media/clouds.3c700c1313cc1cd3d3c5.png",
+    "static/media/login-image.jpg": "/utopai/static/media/login-image.21e8ba3f9dca3c346851.jpg",
+    "static/media/fabio-mangione.jpg": "/utopai/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
+    "static/media/daniel-olahh.jpg": "/utopai/static/media/daniel-olahh.77c0ffac60f9218de675.jpg",
+    "static/media/profile-page.png": "/utopai/static/media/profile-page.3a626caf205d1143f192.png",
+    "static/media/Japanspa.jpg": "/utopai/static/media/Japanspa.a8918f035c21c802ecef.jpg",
+    "static/media/clem-onojeghuo-2.jpg": "/utopai/static/media/clem-onojeghuo-2.d16702ce00aa38f275c0.jpg",
+    "static/media/ayo-ogunseinde-2.jpg": "/utopai/static/media/ayo-ogunseinde-2.f4af8f2c98f6968c5ae9.jpg",
+    "static/media/joe-gardner-2.jpg": "/utopai/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
+    "static/media/clem-onojeghuo-3.jpg": "/utopai/static/media/clem-onojeghuo-3.83003f446b7372176b72.jpg",
+    "static/media/erik-lucatero-2.jpg": "/utopai/static/media/erik-lucatero-2.d09715abe0463c58d6be.jpg",
+    "static/media/nucleo-icons.eot": "/utopai/static/media/nucleo-icons.bd42d77b9672555647d1.eot",
+    "static/media/nucleo-icons.ttf": "/utopai/static/media/nucleo-icons.4466aeec3386b965a232.ttf",
+    "static/media/nucleo-icons.woff": "/utopai/static/media/nucleo-icons.8e954b749f951b654fc6.woff",
+    "static/media/nucleo-icons.woff2": "/utopai/static/media/nucleo-icons.ec16bc4cc4526801004d.woff2",
+    "index.html": "/utopai/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.1519c05e.css",
+    "static/js/main.4d48476e.js"
+  ]
+}
