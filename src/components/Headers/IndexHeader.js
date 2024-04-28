@@ -26,7 +26,7 @@ import { Container } from "reactstrap";
 const styles = {
   
   heading: {
-      fontSize: '170px',
+      fontSize: '200px',
       fontWeight: 'bold',
       color: 'transparent',
       fontFamily: 'Montserrat, Helvetica, Arial, sans-serif',
@@ -42,7 +42,7 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/image.png") + ")",
+            "url(" + require("assets/img/Unbenannt.PNG") + ")",
         }}
       >
         <div className="filter" />
