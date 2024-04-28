@@ -34,7 +34,7 @@ function SectionExamples() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("/Users/caknesga/Desktop/paper-kit-react-main/src/starfield-2276843.jpg")}
+                  src={require("assets/img/Japanspa.jpg")}
                   style={{ width: "100%" }}
                 />
               </a>

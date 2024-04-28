@@ -43,7 +43,7 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("/Users/caknesga/Desktop/paper-kit-react-main/src/assets/img/Japanspa.jpg") + ")",
+            "url(" + require("assets/img/Japanspa.jpg") + ")",
         }}
       >
         <div className="filter" />

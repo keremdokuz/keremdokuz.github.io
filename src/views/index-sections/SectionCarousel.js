@@ -34,17 +34,17 @@ import {
 
 const items = [
   {
-    src: require("/Users/caknesga/Desktop/paper-kit-react-main/src/assets/img/Japanspa.jpg"),
+    src: require("assets/img/Japanspa.jpg"),
     altText: "Somewhere",
     caption: "Somewhere",
   },
   {
-    src: require("/Users/caknesga/Desktop/paper-kit-react-main/src/assets/img/Japanspa.jpg"),
+    src: require("assets/img/Japanspa.jpg"),
     altText: "Somewhere else",
     caption: "Somewhere else",
   },
   {
-    src: require("/Users/caknesga/Desktop/paper-kit-react-main/src/assets/img/Japanspa.jpg"),
+    src: require("assets/img/Japanspa.jpg"),
     altText: "Here it is",
     caption: "Here it is",
   },

@@ -30,7 +30,7 @@ function SectionNucleoIcons() {
       <div className="section section-dark section-nucleo-icons" 
       style={{
         backgroundImage:
-          "url(" + require("/Users/caknesga/Desktop/paper-kit-react-main/src/pexels-kaip-1341279.jpg") + ")",
+          "url(" + require("assets/img/Japanspa.jpg") + ")",
       }}>
         <Container>
           <Row>
