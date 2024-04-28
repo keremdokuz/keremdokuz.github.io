@@ -28,7 +28,7 @@ const styles = {
   heading: {
       fontSize: '170px',
       fontWeight: 'bold',
-      color: 'rgb(255, 255, 255)',
+      color: 'transparent',
       fontFamily: 'Montserrat, Helvetica, Arial, sans-serif',
       
   },
@@ -42,14 +42,14 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/Japanspa.jpg") + ")",
+            "url(" + require("assets/img/image.png") + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 style={styles.heading} >Utopai </h1>
+              <h1 style={styles.heading} >     asdasdasd </h1>
              
               
             </div>
@@ -59,10 +59,7 @@ function IndexHeader() {
           </Container>
         </div>
         <div
-          className="moving-clouds"
-          style={{
-            backgroundImage: "url(" + require("assets/img/clouds.png") + ")",
-          }}
+          
         />
         
       </div>
