@@ -19,7 +19,11 @@
 import React from "react";
 
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
+import { Button, Container, Row, Col, UncontrolledTooltip,Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup } from "reactstrap";
 
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
@@ -38,24 +42,58 @@ function SectionDownload() {
   return (
     <>
       <div className="section">
-        <Container className="text-center">
-          <Row>
-            <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Do you like what you see?</h2>
-             
-            </Col>
-            <Col className="ml-auto mr-auto download-area" md="5">
-              <Button
-                className="btn-round"
-                color="#ff5c5c"
-                href="http://www.creative-tim.com/product/paper-kit-react?ref=pkr-index-page"
-                target="_blank"
-                >
-                Contact us 
-              </Button>
-            </Col>
-          </Row>
-
+        
+          
+          <Container>
+            <Row>
+              <Col className="ml-auto mr-auto" md="8">
+                <h2 className="text-center">Keep in touch?</h2>
+                <Form className="contact-form">
+                  <Row>
+                    <Col md="6">
+                      <label>Name</label>
+                      <InputGroup>
+                        <InputGroupAddon addonType="prepend">
+                          <InputGroupText>
+                            <i className="nc-icon nc-single-02" />
+                          </InputGroupText>
+                        </InputGroupAddon>
+                        <Input placeholder="Name" type="text" />
+                      </InputGroup>
+                    </Col>
+                    <Col md="6">
+                      <label>Email</label>
+                      <InputGroup>
+                        <InputGroupAddon addonType="prepend">
+                          <InputGroupText>
+                            <i className="nc-icon nc-email-85" />
+                          </InputGroupText>
+                        </InputGroupAddon>
+                        <Input placeholder="Email" type="text" />
+                      </InputGroup>
+                    </Col>
+                  </Row>
+                  <label>Message</label>
+                  <Input
+                    placeholder="Tell us your thoughts and feelings..."
+                    type="textarea"
+                    rows="4"
+                  />
+                  <Row>
+                    <Col className="ml-auto mr-auto" md="4">
+                      <Button className="btn-fill" color="danger" size="lg">
+                        Send Message
+                      </Button>
+                    </Col>
+                  </Row>
+                </Form>
+              </Col>
+            </Row>
+          </Container>
+     
+                
+                   
+     
 
         
 
@@ -63,13 +101,7 @@ function SectionDownload() {
 
 
 
-          <Row className="text-center upgrade-pro">
-            <Col className="ml-auto mr-auto" md="8">
-              
-              
-            </Col>
-            
-          </Row>
+         
           <Row className="justify-content-md-center sharing-area text-center">
             <Col className="text-center" lg="8" md="12">
               <h3>Thank you for supporting us!</h3>
@@ -125,7 +157,7 @@ function SectionDownload() {
               </UncontrolledTooltip>
             </Col>
           </Row>
-        </Container>
+      
       </div>
     </>
   );
