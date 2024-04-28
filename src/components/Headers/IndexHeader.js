@@ -26,11 +26,10 @@ import { Container } from "reactstrap";
 const styles = {
   
   heading: {
-      fontSize: '180px',
+      fontSize: '170px',
       fontWeight: 'bold',
-      color: '#999',
-      
-      
+      color: 'rgb(255, 255, 255)',
+      fontFamily: 'Montserrat, Helvetica, Arial, sans-serif',
       
   },
  

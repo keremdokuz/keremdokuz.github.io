@@ -27,43 +27,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionNucleoIcons() {
   return (
     <>
-      <div className="section section-dark section-nucleo-icons" 
-      style={{
-        backgroundImage:
-          "url(" + require("assets/img/Japanspa.jpg") + ")",
-      }}>
-        <Container>
-          <Row>
-            <Col lg="6" md="12">
-              <h2 className="title">Software Solutions </h2>
-              <br />
-              <p className="description">
-                 Utopai solve the problemsyou encounter the most.
-              </p>
-              <br />
-              <Button
-                className="btn-round"
-                color="danger"
-                href="/nucleo-icons"
-                target="_blank"
-                
-              >
-                Early Access
-              </Button>
-              <Button
-                className="btn-round ml-1"
-                color="danger"
-                href="https://nucleoapp.com/?ref=1712"
-                outline
-                target="_blank"
-              >
-                View All Features
-              </Button>
-            </Col>
-           
-          </Row>
-        </Container>
-      </div>{" "}
+      
     </>
   );
 }

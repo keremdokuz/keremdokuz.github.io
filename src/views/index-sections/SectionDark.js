@@ -26,7 +26,10 @@ import { Container, Row, Col } from "reactstrap";
 function SectionDark() {
   return (
     <>
-      <div className="section section-dark">
+      <div className="section section-dark"  style={{
+        backgroundImage:
+          "url(" + require("/assets/img/starfield-2276843.jpg") + ")",
+      }}>
         <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">

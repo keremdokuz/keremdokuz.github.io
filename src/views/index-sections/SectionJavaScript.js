@@ -46,10 +46,7 @@ function SectionJavaScript() {
   };
   return (
     <>
-      <div className="section javascript-components">
-        
-       
-      </div>{" "}
+      
     </>
   );
 }

@@ -42,11 +42,17 @@ function SectionButtons() {
     <>
       <div className="section section-buttons">
         <Container>
-          <div className="title">
-            <h2>Projekts</h2>
+          <div  className="title">
+            <h2 > Architectural Projects  </h2>
           </div>
-         
-           asdasd Söyle böyle projelerimiz var ve sol tarafaa gecmeli resim gelicek 
+          <p style={{fontSize: 20}}>
+           At [Your Company Name], we're a revolutionary architecture startup pushing the boundaries of design and construction.
+           We leverage the power of AI and cutting-edge software to deliver fast-tracked, innovative architectural projects that meet your needs efficiently.
+       
+           Our unique approach combines the creativity of human vision with the precision and speed of advanced technology. 
+           We can translate your ideas into stunning, functional designs in a fraction of the traditional timeframe.s
+            </p>
+           
          
             
          
