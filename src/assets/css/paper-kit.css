@@ -2019,7 +2019,7 @@ fieldset[disabled] .btn-neutral.active {
 .btn-neutral.btn-border.active,
 .open > .btn-neutral.btn-border.dropdown-toggle {
   background-color: #ffffff;
-  color:  #ffffff;
+  color: #66615b;
 }
 .btn-neutral.btn-link:hover,
 .btn-neutral.btn-link:focus,
