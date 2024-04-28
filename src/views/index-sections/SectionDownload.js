@@ -21,9 +21,20 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
+import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
+import LandingPageHeader from "components/Headers/LandingPageHeader.js";
+import DemoFooter from "components/Footers/DemoFooter.js";
+
 // core components
 
 function SectionDownload() {
+  document.documentElement.classList.remove("nav-open");
+  React.useEffect(() => {
+    document.body.classList.add("profile-page");
+    return function cleanup() {
+      document.body.classList.remove("profile-page");
+    };
+  });
   return (
     <>
       <div className="section">
@@ -31,9 +42,7 @@ function SectionDownload() {
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Do you like what you see?</h2>
-              <p className="description">
-                Cause if you dont let us inform about any topic you want
-              </p>
+             
             </Col>
             <Col className="ml-auto mr-auto download-area" md="5">
               <Button
@@ -42,10 +51,18 @@ function SectionDownload() {
                 href="http://www.creative-tim.com/product/paper-kit-react?ref=pkr-index-page"
                 target="_blank"
                 >
-                Contact us information
+                Contact us 
               </Button>
             </Col>
           </Row>
+
+
+        
+
+
+
+
+
           <Row className="text-center upgrade-pro">
             <Col className="ml-auto mr-auto" md="8">
               
@@ -60,24 +77,24 @@ function SectionDownload() {
             <Col className="text-center" lg="8" md="12">
               <Button
                 className="twitter-sharrre btn-round"
-                
+                style={{backgroundColor:"#111",color:"#fff",borderColor:"#111"}}
                 href="#pablo"
                 id="tooltip3373767"
                 onClick={(e) => e.preventDefault()}
               >
-                <i className="fa fa-twitter" /> X
+                 X
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip3373767">
                 Tweet!
               </UncontrolledTooltip>
               <Button
                 className="linkedin-sharrre btn-round  ml-2"
-                color="google-bg"
+                style={{backgroundColor:"#c13584",color:"#fff",borderColor:"#c13584"}}
                 href="#pablo"
                 id="tooltip840791273"
                 onClick={(e) => e.preventDefault()}
               >
-                <i className="fa fa-google-plus" /> Instagram
+                Instagram
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip840791273">
                 Share!
@@ -89,7 +106,7 @@ function SectionDownload() {
                 id="tooltip68961360"
                 onClick={(e) => e.preventDefault()}
               >
-                <i className="fa fa-facebook-square" /> Facebook
+                 Facebook
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip68961360">
                 Share!
@@ -101,7 +118,7 @@ function SectionDownload() {
                 target="_blank"
                 id="tooltip864353654"
               >
-                <i className="fa fa-github" /> Github
+                 Github
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip864353654">
                 Star on Github

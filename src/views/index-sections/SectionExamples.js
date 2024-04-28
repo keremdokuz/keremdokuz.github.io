@@ -26,7 +26,23 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionExamples() {
   return (
     <>
-      <div className="section section-dark">
+      <div className="section section-dark"  style={{
+        backgroundImage:
+          "url(" + require("assets/img/starfield-2276843.jpg") + ")",
+      }}>
+
+      <Container>
+          <Row>
+            <Col className="ml-auto mr-auto text-center" md="8">
+              <h2 className="title">Evolve With Change </h2>
+              <p className="description"style={{fontSize: 20,color:"#fff"}}>
+              The construction industry is on the cusp of a transformation. 
+              At Utopai, we're driving this change with a suite of innovative software products designed specifically for architects and construction professionals.
+              . <br /> Explore today!
+              </p>
+            </Col>
+          </Row>
+        </Container>
         <Container>
           <Row className="example-page">
             <Col className="text-center" md="6">
@@ -37,6 +53,7 @@ function SectionExamples() {
                   src={require("assets/img/Japanspa.jpg")}
                   style={{ width: "100%" }}
                 />
+                
               </a>
               <Button
                 className="btn-outline-neutral btn-round"
@@ -44,7 +61,7 @@ function SectionExamples() {
                 href="/landing-page"
                 target="_blank"
               >
-                Detay Cözücü
+                Plan to render
               </Button>
             </Col>
             <Col className="text-center" md="6">
@@ -62,7 +79,7 @@ function SectionExamples() {
                 href="/profile-page"
                 target="_blank"
               >
-                Plan to render
+                Detay Cözücü
               </Button>
             </Col>
           </Row>

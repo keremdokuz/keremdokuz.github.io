@@ -37,23 +37,7 @@ import {
 function SectionLogin() {
   return (
     <>
-      <div
-        className="section section-image section-login"
-        style={{
-          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")",
-        }}
-      >
-        <Container>
-          <Row>
-            <Col className="mx-auto" lg="4" md="6">
-             
-                 
-                   
-            
-            </Col>
-          </Row>
-        </Container>
-      </div>{" "}
+      
     </>
   );
 }
