@@ -43,7 +43,7 @@ function SectionButtons() {
       <div className="section section-buttons">
         <Container>
           <div  className="title">
-            <h2 > New Era of Architectur   </h2>
+            <h2 > New Era of Architecture   </h2>
           </div>
           <p style={{fontSize: 20}}>
            At Utopai, we're pushing the boundaries of design and construction.
