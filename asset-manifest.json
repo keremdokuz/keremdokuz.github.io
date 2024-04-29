@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/utopai/static/css/main.1519c05e.css",
-    "main.js": "/utopai/static/js/main.084b5edc.js",
+    "main.js": "/utopai/static/js/main.6d8c9dd7.js",
     "static/media/Unbenannt.PNG": "/utopai/static/media/Unbenannt.3fd792cae3792cf8306b.PNG",
     "static/media/login-image.jpg": "/utopai/static/media/login-image.21e8ba3f9dca3c346851.jpg",
     "static/media/Screenshot 2024-04-29 020444.png": "/utopai/static/media/Screenshot 2024-04-29 020444.1e228d60e88aed2d5160.png",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.1519c05e.css",
-    "static/js/main.084b5edc.js"
+    "static/js/main.6d8c9dd7.js"
   ]
 }
