@@ -27,8 +27,7 @@ function SectionExamples() {
   return (
     <>
       <div className="section section-dark"  style={{
-        backgroundImage:
-          "url(" + require("assets/img/starfield-2276843.jpg") + ")",
+        backgroundColor:"#111"
       }}>
 
       <Container>
@@ -50,7 +49,7 @@ function SectionExamples() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/Japanspa.jpg")}
+                  src={require("assets/img/Screenshot 2024-04-29 020444.png")}
                   style={{ width: "100%" }}
                 />
                 
@@ -69,7 +68,7 @@ function SectionExamples() {
                 <img
                   alt="..."
                   className="img-rounded img-responsive"
-                  src={require("assets/img/examples/profile-page.png")}
+                  src={require("assets/img/Unbenannt3.PNG")}
                   style={{ width: "100%" }}
                 />
               </a>

@@ -103,7 +103,7 @@ function SectionDownload() {
 
          
           <Row className="justify-content-md-center sharing-area text-center">
-            <Col className="text-center" lg="8" md="12">
+            <Col className="text-center" lg="8" md="12" >
               <h3>Thank you for supporting us!</h3>
             </Col>
             <Col className="text-center" lg="8" md="12">
@@ -121,7 +121,7 @@ function SectionDownload() {
               </UncontrolledTooltip>
               <Button
                 className="linkedin-sharrre btn-round  ml-2"
-                style={{backgroundColor:"#c13584",color:"#fff",borderColor:"#c13584"}}
+                style={{backgroundColor:"#111",color:"#fff",borderColor:"#111"}}
                 href="#pablo"
                 id="tooltip840791273"
                 onClick={(e) => e.preventDefault()}
@@ -133,7 +133,7 @@ function SectionDownload() {
               </UncontrolledTooltip>
               <Button
                 className="facebook-sharrre btn-round ml-2"
-                color="facebook-bg"
+                style={{backgroundColor:"#111",color:"#fff",borderColor:"#111"}}
                 href="#pablo"
                 id="tooltip68961360"
                 onClick={(e) => e.preventDefault()}
@@ -145,7 +145,7 @@ function SectionDownload() {
               </UncontrolledTooltip>
               <Button
                 className="sharrre btn-round ml-2"
-                color="github-bg"
+                style={{backgroundColor:"#111",color:"#fff",borderColor:"#111"}}
                 href="https://github.com/creativetimofficial/paper-kit-react?ref=creativetim"
                 target="_blank"
                 id="tooltip864353654"

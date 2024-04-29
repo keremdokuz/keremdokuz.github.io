@@ -27,9 +27,9 @@ const styles = {
   
   heading: {
       fontSize: '200px',
-      fontWeight: 'bold',
-      color: 'transparent',
-      fontFamily: 'Montserrat, Helvetica, Arial, sans-serif',
+      fontWeight: '',
+      color: '#fff',
+      fontFamily: 'Arial, Helvetica, Arial, sans-serif',
       
   },
  
@@ -49,11 +49,11 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 style={styles.heading} >     asdasdasd </h1>
+              <h1 style={styles.heading} >     Utopai </h1>
              
               
             </div>
-            <h2 className="presentation-subtitle text-center">
+            <h2 className="presentation-subtitle text-center" style={{fontStyle: "italic ", fontFamily: "Arial, Helvetica, Arial, sans-serif"} }>
              Designed by people
             </h2>
           </Container>

@@ -35,18 +35,15 @@ import {
 const items = [
   {
     src: require("assets/img/Japanspa.jpg"),
-    altText: "Somewhere",
-    caption: "Somewhere",
+    
   },
   {
-    src: require("assets/img/Japanspa.jpg"),
-    altText: "Somewhere else",
-    caption: "Somewhere else",
+    src: require("assets/img/luxury modern minima-2.jpg"),
+   
   },
   {
-    src: require("assets/img/Japanspa.jpg"),
-    altText: "Here it is",
-    caption: "Here it is",
+    src: require("assets/img/A beautiful morning.jpg"),
+    
   },
 ];
 
