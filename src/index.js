@@ -18,7 +18,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Route, Navigate, Routes } from "react-router-dom";
+import { Route, Navigate, Routes, HashRouter } from "react-router-dom";
 
 // styles
 import "bootstrap/scss/bootstrap.scss";
@@ -35,14 +35,14 @@ import RegisterPage from "views/examples/RegisterPage.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
-      <Route path="/index" element={<Index />} />
+      <Route path="/utopai" element={<Index />} />
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
       <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/register-page" element={<RegisterPage />} />
-      <Route path="*" element={<Navigate to="/index" replace />} />
+      <Route path="*" element={<Navigate to="/utopai" replace />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
