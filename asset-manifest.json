@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/utopai/static/css/main.1519c05e.css",
-    "main.js": "/utopai/static/js/main.4d48476e.js",
-    "static/media/clouds.png": "/utopai/static/media/clouds.3c700c1313cc1cd3d3c5.png",
+    "main.js": "/utopai/static/js/main.04cd9fb7.js",
+    "static/media/Unbenannt.PNG": "/utopai/static/media/Unbenannt.3fd792cae3792cf8306b.PNG",
     "static/media/login-image.jpg": "/utopai/static/media/login-image.21e8ba3f9dca3c346851.jpg",
+    "static/media/Screenshot 2024-04-29 020444.png": "/utopai/static/media/Screenshot 2024-04-29 020444.1e228d60e88aed2d5160.png",
     "static/media/fabio-mangione.jpg": "/utopai/static/media/fabio-mangione.488bc249dffdae3556c6.jpg",
     "static/media/daniel-olahh.jpg": "/utopai/static/media/daniel-olahh.77c0ffac60f9218de675.jpg",
-    "static/media/profile-page.png": "/utopai/static/media/profile-page.3a626caf205d1143f192.png",
+    "static/media/luxury modern minima-2.jpg": "/utopai/static/media/luxury modern minima-2.6b77ecdcf4a706cd6491.jpg",
+    "static/media/A beautiful morning.jpg": "/utopai/static/media/A beautiful morning.9693234444736d312d25.jpg",
     "static/media/Japanspa.jpg": "/utopai/static/media/Japanspa.a8918f035c21c802ecef.jpg",
+    "static/media/Unbenannt3.PNG": "/utopai/static/media/Unbenannt3.beee4f8d1feb623e2b99.PNG",
     "static/media/clem-onojeghuo-2.jpg": "/utopai/static/media/clem-onojeghuo-2.d16702ce00aa38f275c0.jpg",
     "static/media/ayo-ogunseinde-2.jpg": "/utopai/static/media/ayo-ogunseinde-2.f4af8f2c98f6968c5ae9.jpg",
     "static/media/joe-gardner-2.jpg": "/utopai/static/media/joe-gardner-2.09841708956117e93a7b.jpg",
@@ -21,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.1519c05e.css",
-    "static/js/main.4d48476e.js"
+    "static/js/main.04cd9fb7.js"
   ]
 }
