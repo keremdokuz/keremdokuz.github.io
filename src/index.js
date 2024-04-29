@@ -31,11 +31,11 @@ import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 // others
-
+console.log(process.env.PUBLIC_URL)
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Routes>
       <Route path="/home" element={<Index />} />
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
