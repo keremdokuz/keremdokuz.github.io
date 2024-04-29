@@ -35,14 +35,14 @@ import RegisterPage from "views/examples/RegisterPage.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-      <Route path="/utopai" element={<Index />} />
+      <Route path="/home" element={<Index />} />
       <Route path="/nucleo-icons" element={<NucleoIcons />} />
       <Route path="/landing-page" element={<LandingPage />} />
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/register-page" element={<RegisterPage />} />
-      <Route path="*" element={<Navigate to="/utopai" replace />} />
+      <Route path="*" element={<Navigate to="/home" replace />} />
     </Routes>
   </HashRouter>
 );

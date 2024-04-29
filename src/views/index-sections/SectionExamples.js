@@ -78,7 +78,7 @@ function SectionExamples() {
                 href="/profile-page"
                 target="_blank"
               >
-                Detay Cözücü
+                Detail Solver
               </Button>
             </Col>
           </Row>
