@@ -132,7 +132,7 @@ function IndexNavbar() {
                 title="Star on GitHub"
               >
               
-                <p className="d-lg-none">Who we are</p>
+                <p className="d-lg-none">Why us , why now ?</p>
               </NavLink>
             </NavItem>
             <NavItem>
