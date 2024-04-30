@@ -34,11 +34,11 @@ import {
 
 const items = [
   {
-    src: require("assets/img/Japanspa.jpg"),
+    src: require("assets/img/luxury modern minima-2.jpg"),
     
   },
   {
-    src: require("assets/img/luxury modern minima-2.jpg"),
+    src: require("assets/img/Japanspa.jpg"),
    
   },
   {
