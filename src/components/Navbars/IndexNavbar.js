@@ -137,10 +137,11 @@ function IndexNavbar() {
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
+                href="/index"
                 target="_blank"
               >
-                 Why us ,Why not ?
+                 Why us , why now ?
+
               </NavLink>
             </NavItem>
            
