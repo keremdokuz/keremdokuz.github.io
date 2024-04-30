@@ -132,7 +132,7 @@ function IndexNavbar() {
                 title="Star on GitHub"
               >
               
-                <p className="d-lg-none">Why us , why now ?</p>
+                <p className="d-lg-none">Who we are</p>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -140,7 +140,7 @@ function IndexNavbar() {
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
                 target="_blank"
               >
-                 Contact us 
+                 Why us ,Why not ?
               </NavLink>
             </NavItem>
            
