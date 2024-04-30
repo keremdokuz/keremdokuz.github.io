@@ -19,6 +19,7 @@
 import React from "react";
 
 // reactstrap components
+import { Link } from "react-router-dom";
 import { Button, Container, Row, Col } from "reactstrap";
 
 // core components
@@ -26,18 +27,24 @@ import { Button, Container, Row, Col } from "reactstrap";
 function SectionExamples() {
   return (
     <>
-      <div className="section section-dark"  style={{
-        backgroundColor:"#111"
-      }}>
-
-      <Container>
+      <div
+        className="section section-dark"
+        style={{
+          backgroundColor: "#111",
+        }}
+      >
+        <Container>
           <Row>
             <Col className="ml-auto mr-auto text-center" md="8">
               <h2 className="title">Evolve With Change </h2>
-              <p className="description"style={{fontSize: 20,color:"#fff"}}>
-              The construction industry is on the cusp of a transformation. 
-              At Utopai, we're driving this change with a suite of innovative software products designed specifically for architects and construction professionals.
-              . <br /> Explore today!
+              <p
+                className="description"
+                style={{ fontSize: 20, color: "#fff" }}
+              >
+                The construction industry is on the cusp of a transformation. At
+                Utopai, we're driving this change with a suite of innovative
+                software products designed specifically for architects and
+                construction professionals. . <br /> Explore today!
               </p>
             </Col>
           </Row>
@@ -52,16 +59,16 @@ function SectionExamples() {
                   src={require("assets/img/Screenshot 2024-04-29 020444.png")}
                   style={{ width: "100%" }}
                 />
-                
               </a>
-              <Button
-                className="btn-outline-neutral btn-round"
-                color="default"
-                href="/landing-page"
-                target="_blank"
-              >
-                Plan to render
-              </Button>
+              <Link to="/landing-page">
+                <Button
+                  className="btn-outline-neutral btn-round"
+                  color="default"
+                  target="_blank"
+                >
+                  Plan to render
+                </Button>
+              </Link>
             </Col>
             <Col className="text-center" md="6">
               <a href="examples/profile.html" target="_blank">
@@ -72,14 +79,15 @@ function SectionExamples() {
                   style={{ width: "100%" }}
                 />
               </a>
-              <Button
-                className="btn-outline-neutral btn-round"
-                color="default"
-                href="/profile-page"
-                target="_blank"
-              >
-                Detay Cözücü
-              </Button>
+              <Link to="/profile-page">
+                <Button
+                  className="btn-outline-neutral btn-round"
+                  color="default"
+                  target="_blank"
+                >
+                  Detail Solver
+                </Button>
+              </Link>
             </Col>
           </Row>
         </Container>

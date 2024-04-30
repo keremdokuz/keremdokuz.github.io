@@ -97,7 +97,7 @@ function SectionCarousel() {
                       >
                         <img src={item.src} alt={item.altText} />
                         <CarouselCaption
-                          captionText={item.caption}
+                          captionText={item.caption ?? ""}
                           captionHeader=""
                         />
                       </CarouselItem>
